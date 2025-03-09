@@ -6,7 +6,7 @@ This repository contains source code and datasets for paper " DAPNet: multi-view
 
   
 ## A Quick Start
-Before our program runs, we need to make some preparations
+Before our program runs, we need to make some preparations.
 
 ### Install Python libraries needed
 
@@ -16,7 +16,7 @@ $ conda create -n DP python=3.7
 $ conda activate DP
 $ pip install -r requirements.txt
 ```
-
+We recommend using version 1.15 of TensorFlow 1.
 ### Diseases network  creation
 
 Based on the relationship data of diseases, this study sorted and constructed three disease networks from different perspectives. Although their data sources are different, the file format is consistent. 
